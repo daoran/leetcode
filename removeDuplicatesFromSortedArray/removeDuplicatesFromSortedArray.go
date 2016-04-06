@@ -1,6 +1,6 @@
 // Source : https://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/
 // Author : daoran
-// Date   : 2016-04-6
+// Date   : 2016-04-06
 
 /********************************************************************************** 
 * 
