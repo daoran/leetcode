@@ -23,7 +23,7 @@ func maxSubArray(nums []int) int {
     maxSoFar := nums[0]
     
     for i := 1; i < len(nums); i++ {
-        maxEndingHere = max(maxEndingHere + A[i], A[i])
+        maxEndingHere = max(maxEndingHere + nums[i], nums[i])
         maxSoFar = max(maxEndingHere, maxSoFar)
     }
     
