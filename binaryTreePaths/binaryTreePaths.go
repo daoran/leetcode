@@ -55,12 +55,10 @@ func binaryTreePathsHelper(root *TreeNode, path []int, result *[]string) {
     binaryTreePathsHelper(root.Left, path, result)
     binaryTreePathsHelper(root.Right, path, result)
 } 
- 
- 
- 
+
 func binaryTreePaths(root *TreeNode) []string {
     result := &[]string{}
     path := []int{}
     binaryTreePathsHelper(root, path, result)
-    return result
+    return *result
 }
