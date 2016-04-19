@@ -84,7 +84,6 @@ func flatten(root *TreeNode) {
 			v[i].Right = v[i+1]
 		}
 	}
-
 }
 
 func main() {
